@@ -1,19 +1,18 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     
-}
+} 
 
 video {
     width: 30%;
-    margin: 1.66%;
-    float: left;
+    margin: 5px;
 }
 
 iframe{
-    width: 30%;
-    margin: 1.66%;
-    float: left;
+    width:90%;
+    margin: 5px;
+    border: 5px solid rgba(0, 0, 0, .3);
 }
 
 /* .iframe-container {
@@ -31,26 +30,76 @@ iframe{
     height: 100%;
 
 } */
+
+div#portfolio-nav.collapse.navbar-collapse{
+    background-color: rgb(11, 58, 97);
+    color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgb(11, 58, 97);
+}
+/* .left iframe{
+    margin-right: 0;
+} */
+
 h1{
     margin-left: 1.66%;
     font-family: raleway;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
     width: 96.66%;
     margin: 2% 0 .15% 1.66%;
     padding-bottom: 10px;
+    color: white;
 }
-body{
-    background: aquamarine;
+p{
+    color: white;
+}
+ body{
+    background: darkcyan;
+    margin-top: 70px;
     /* background-size: cover; */
+} 
+.jumbotron{
+    background: url(pc4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
-
-hr{
+/* hr{
     width: 96.66%;
     color: black;
     margin: auto;
     display: block;
     border: 0;
     border-top: 2px solid black;
+} */
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+/* .col-md-4{
+
+} */
+
+.row{
+    width: 100%;
+    margin: 5px;
+}
+div.col-lg-4{
+    text-align: center;
+    padding: 0;
+} 
+div.col-sm-12{
+    text-align: center;
+    padding: 0;
+} 
+
+.container{
+    width: 1800px;
 }
 /* img {
     position: absolute !important;
